@@ -23,7 +23,7 @@ var style_ObszarzasilaniaKubaczyn_3 = function(feature, resolution){
         labelText = String(feature.get("Nazwa"));
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.47)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(222,123,50,1.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.47)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(222,123,50,0.47)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
